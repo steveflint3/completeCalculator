@@ -1,0 +1,37 @@
+.numberFields {
+  margin: 0;
+  width: 360px;
+  overflow: auto;
+  float: left;
+}
+
+.numberFields button {
+  background-color: lightblue;
+  border: 1px solid black;
+  width: 120px;
+  height: 40px;
+}
+
+.numberFields button[name='0'] {
+  width: 360px;
+}
+
+.operations {
+  margin-left: 4px;
+  width: 40px;
+  display: inline-block;
+}
+
+.operations button {
+  background-color: lightgreen;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+#numberDisplay {
+  width: 404px;
+  border: 1px solid black;
+  padding: 8px;
+  background-color: lightgray;
+}
